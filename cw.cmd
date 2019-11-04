@@ -1,0 +1,2 @@
+python cw.py
+pause
