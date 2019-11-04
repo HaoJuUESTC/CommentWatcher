@@ -28,7 +28,9 @@ while True:
 			except TypeError:
 				break
 			except Exception as e:
+				print('Error, wait 10 sec')
 				print(e)
+				lines.append('Failed to get page '+page+'\n')
 				time.sleep(10)
 				pass
 			time.sleep(1)

@@ -16,7 +16,7 @@ while True:
         for page in range(1, pages+1):
             try:
                 print('Getting '+oid+' page '+str(page)+' - '+str(count))
-                response = requests.get('https://api.bilibili.com/x/v2/reply?&jsonp=jsonp&pn='+str(page)+'&type=11&oid='+oid+'&sort=0&_=1562316459358')
+                response = requests.get('https://api.bilibili.com/x/v2/reply?&pn='+str(page)+'&type=11&oid='+oid+'&sort=0')
                 responselist = response.json()['data']['replies']
                 for comment in responselist:
                     mid = comment['member']['mid']
