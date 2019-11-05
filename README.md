@@ -22,6 +22,6 @@
 * 目前 ~~刚健朴实~~ 较为原始的删评获取方法是:在 Sublime Text 里打开两个文件，选中较早的按下 `Ctrl+Shift+P` 输入 `Compare with` ，再选择另一个进行比对。主要参照是 uid 和 ctime，因为文本可能出现乱码，用户可能改名
 
 # 点下面查看所有疑似删评记录
-* [视频av63148356](AllDeletes\63148356.md)
-* [动态“最后一条说明” ](AllDeletes\40928079.md)
-* [动态“补充”](AllDeletes\40928776.md)
+* [视频av63148356](/AllDeletes/63148356.md)
+* [动态“最后一条说明” ](/AllDeletes/40928079.md)
+* [动态“补充”](/AllDeletes/40928776.md)
